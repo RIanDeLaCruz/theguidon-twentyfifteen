@@ -1,0 +1,39 @@
+
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+
+
+.navbar-header {
+	min-height: 120px;
+}
+.upperinfo {
+	padding: 0;
+}
+	.upperinfo .infoleft {
+		float: left;
+	}
+	.upperinfo .inforight {
+		float: right;
+	}
+#headline h1 {
+	font-size: 28pt;
+	margin-top: 10px;
+}
+	#headline small {
+		font-size: 14pt;
+	}
+	#headline .bannerphoto {
+		float: right;
+		padding-left: 20px;
+	}
+#blurbs {
+	text-align: left;
+}
+	#blurbs p {
+		font-size: 10pt;
+	}
+	#blurbs h5 {
+		color: #D3D3D3;
+	}
