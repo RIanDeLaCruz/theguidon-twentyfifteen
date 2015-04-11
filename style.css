@@ -1,0 +1,12 @@
+/*Theme Name: The GUIDON Main
+Description: Exclusive theme for The GUIDON, Ateneo de Manila University's official student publication
+Version: 1.0
+Authors: Jan-Daniel S. Belmonte and Ian B. De La Cruz
+Author URI: http://www.theguidon.com, http://www.janbelmonte.com/
+*/
+
+#wrap{margin: 0 auto; width:95%; margin-top:-10px; height:100%;}
+.header{width:99.8%; border:1px solid #999;height:135px;}
+.content{width:70%; border:1px solid #999;margin-top:5px;}
+.sidebar{float:right; margin-top:-54px;width:29%; border:1px solid #999;}
+.footer{width:99.8%;border:1px solid #999;margin-top:10px;}
