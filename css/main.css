@@ -4,6 +4,10 @@
    Author's custom styles
    ========================================================================== */
 
+h1, h2, h3, h4, h5, h6 {
+	font-family: Garamond, serif;
+	font-weight: bold;
+}
 
 .navbar-header {
 	min-height: 120px;
@@ -17,8 +21,16 @@
 	.upperinfo .inforight {
 		float: right;
 	}
+#menu .row {
+	padding: 0;
+	margin: 0;
+}
+#menu h5 {
+	padding: 0;
+	margin: 0;
+}
 #headline h1 {
-	font-size: 28pt;
+	font-size: 32pt;
 	margin-top: 10px;
 }
 	#headline small {
@@ -28,6 +40,21 @@
 		float: right;
 		padding-left: 20px;
 	}
+	#headline .carousel-control {
+	  width: 8%;
+	  filter: alpha(opacity=50);
+	  opacity: .5;
+	}
+	#headline .carousel-control.left {
+	  background-image: none;
+	  filter: none;
+	  background-repeat: repeat-x;
+	}
+	#headline .carousel-control.right {
+	  background-image: none;
+	  filter: none;
+	  background-repeat: repeat-x; 
+	}
 #blurbs {
 	text-align: left;
 }
@@ -35,5 +62,20 @@
 		font-size: 10pt;
 	}
 	#blurbs h5 {
+		font-family: Helvetica;
+		font-size: 9pt;
+		color: #D3D3D3;
+	}
+#breaking {
+	display: none;
+	float: right;
+	text-align: left;
+}
+	#breaking p {
+		font-size: 10pt;
+	}
+	#breaking h5 {
+		font-family: Helvetica;
+		font-size: 9pt;
 		color: #D3D3D3;
 	}
