@@ -1,7 +1,6 @@
 <?php get_header(); ?>
-
 <div class="content">
-    <?php if ( have_posts() ) : ?>
+	<?php if ( have_posts() ) : ?>
 		<?php while ( have_posts() ) : the_post(); ?>
 			<div id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
 				<div class="post-header">
@@ -26,8 +25,7 @@
 			</nav><!--.navigation-->
 		<?php else : ?>
 	<?php endif; ?>
-</div>
-
+</div><!--.content-->
 <?php get_sidebar(); ?>
 <?php wp_footer(); // Crucial footer hook! ?>
 <?php get_footer(); ?>

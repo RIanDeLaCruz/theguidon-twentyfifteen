@@ -1,4 +1,5 @@
-<html>
+<!DOCTYPE HTML>
+<html xmlns="http://www.w3.org/1999/xhtml" <?php language_attributes(); ?>
 <head>
 	<meta charset="<?php bloginfo( 'charset' ); ?>">
 	<meta name="viewport" content="width=device-width">
@@ -10,6 +11,9 @@
 	<script>(function(){document.documentElement.className='js'})();</script>
 	<?php wp_head(); ?>
 	<link rel="stylesheet" href="<?php bloginfo('stylesheet_url'); ?>" type="text/css" />
+	<link title="<?php bloginfo('name'); ?> RSS Feed" href="<?php bloginfo('rss2_url'); ?>" rel="alternate" type="application/rss+xml" /><link href="<?php bloginfo('pingback_url'); ?>" rel="pingback" />
+	<!--?php bloginfo('name'); ?--> <!--?php wp_title('-') ?-->
+	<!--?php wp_head(); ?-->	
 </head>
 <body>
     <div id="wrap">
