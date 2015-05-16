@@ -1,0 +1,114 @@
+
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+body {
+	padding-bottom: 0;
+	padding-top: 0;
+}
+#header {
+	padding-left: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: Garamond, serif;
+	font-weight: bold;
+}
+.row.masthead hr{
+	margin-top: 0;
+	margin-bottom: 0;
+}
+#mastheadid {
+	width: 100%;
+	float: left;	
+}
+nav.navbar {
+	margin-bottom: 40px;
+	padding-bottom: 20px;
+	background-color: #003768;
+}
+.navbar-header {
+	min-height: 120px;
+}
+.upperinfo {
+	padding: 10px 70px 0 70px;
+	margin: 0;
+	width: 100%;
+	height: 45px;
+	background-color: #f1f1f1;
+	box-shadow: 1px 1px 1px #d3d3d3;
+}
+	.upperinfo .infoleft {
+		float: left;
+	}
+	.upperinfo .inforight {
+		float: right;
+	}
+#menu .row {
+	padding: 0;
+	margin: 0;
+}
+#menu h5 {
+	padding: 0;
+	margin: 0;
+}
+#headline h1 {
+	font-size: 32pt;
+	margin-top: 10px;
+}
+	#headline small {
+		font-size: 14pt;
+	}
+	#headline .bannerphoto {
+		float: right;
+		padding-left: 20px;
+	}
+	#headline .carousel-control {
+	  width: 8%;
+	  filter: alpha(opacity=50);
+	  opacity: .5;
+	}
+	#headline .carousel-control.left {
+	  background-image: none;
+	  filter: none;
+	  background-repeat: repeat-x;
+	}
+	#headline .carousel-control.right {
+	  background-image: none;
+	  filter: none;
+	  background-repeat: repeat-x; 
+	}
+#blurbs {
+	text-align: left;
+}
+	#blurbs p {
+		font-size: 10pt;
+	}
+	#blurbs h5 {
+		font-family: Helvetica;
+		font-size: 9pt;
+		color: #D3D3D3;
+	}
+#breaking {
+	display: none;
+	float: right;
+	position: relative;
+	width: 100%;
+}
+	#breaking p {
+		font-size: 10pt;
+	}
+	#breaking h5 {
+		font-family: Helvetica;
+		font-size: 9pt;
+		color: #D3D3D3;
+	}
+footer {
+	bottom: 0;
+	width: 100%;
+	height: 150px;
+	background-color: #003768;
+	margin-bottom: 0;
+	padding-bottom: 0;
+}
